@@ -1,0 +1,36 @@
+{
+  "name": "kl-traffic-viewer-asean-summit",
+  "version": "3.1.0",
+  "description": "Real-time KL traffic viewer for ASEAN Summit 2025 with smart convoy detection, geolocation support, and road closure monitoring",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "traffic",
+    "kuala-lumpur",
+    "google-maps",
+    "real-time",
+    "geolocation",
+    "asean-summit",
+    "convoy-detection",
+    "road-closures",
+    "traffic-monitoring"
+  ],
+  "author": "eesb99 <eesb99@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eesb99/kl-traffic-viewer-asean-summit-v3.1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eesb99/kl-traffic-viewer-asean-summit-v3.1/issues"
+  },
+  "homepage": "https://github.com/eesb99/kl-traffic-viewer-asean-summit-v3.1#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
